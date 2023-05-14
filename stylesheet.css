@@ -12,7 +12,7 @@ body {
 
 .header {
   top: 0;
-  z-index: 1;
+  z-index: 3;
   width: 100%;
   max-width: 900px;
   background-image: url('stars.jpg');
@@ -25,15 +25,14 @@ body {
 .verticalLine {
     position: absolute;
     border-left: 2px solid gold;
-    height: 500px;
+    height: 1120px;
     margin-left: 25px;
     
   }
 
   .star {
     position: sticky;
-    top: 30px;
-    bottom: 5px;
+    top: 168px;
     z-index: 10;
     font-size: 3rem;
     margin-left: 2px;
@@ -54,7 +53,7 @@ a:hover {
 }
 
 .section1 {
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 img {
@@ -101,7 +100,7 @@ h2:hover{
 .flowers {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin-bottom: 60px;
 }
 
 .flowers li {
@@ -114,10 +113,16 @@ h2:hover{
     content: '🌼 '
  }
 
- 
+ .moon {
+    position: relative;
+    margin-top: 70px;
+    font-size: 3rem;
+ }
  
 
 footer {
-    margin-top: 50px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    color: #c394f2;
 }
  
