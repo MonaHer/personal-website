@@ -1,28 +1,44 @@
 * {
     box-sizing: border-box;
+    
 }
 
 body {
     margin-top: 120px;
-    background-color: palevioletred;
-
-
+    background-color: lightyellow;
+    font-family: 'Trebuchet MS';
+    
 }
 
 .header {
-    position: fixed;
   top: 0;
   z-index: 1;
-
   width: 100%;
   max-width: 900px;
   background-image: url('stars.jpg');
   border-style: dotted;
-  border-color: aqua;
-  border-width: 10px;
-  color: goldenrod;
-  
+  border-color: rosybrown;
+  border-width: 3px;
+  color: rosybrown;
 }
+
+.verticalLine {
+    position: absolute;
+    border-left: 2px solid gold;
+    height: 500px;
+    margin-left: 25px;
+    
+  }
+
+  .star {
+    position: sticky;
+    top: 30px;
+    bottom: 5px;
+    z-index: 10;
+    font-size: 3rem;
+    margin-left: 2px;
+  }
+
 
 .navbar {
 list-style: none;
@@ -31,6 +47,39 @@ list-style: none;
 a {
     text-decoration: none;
     color: black;
+}
+
+a:hover {
+    color: rosybrown
+}
+
+.section1 {
+    margin-left: 40px;
+}
+
+img {
+    max-width: 50%;
+    max-height: 50%;
+  border-style: solid;
+  }
+
+button:hover {
+    background-color: rosybrown;
+  }
+
+.bark-button {
+    margin-top: 5px;
+    background-color: paleturquoise;
+    padding: 5px;
+}
+
+h2{
+color: #c394f2;
+font-family: fantasy;
+}
+
+h2:hover{
+    color: rosybrown;
 }
 
 .letters {
@@ -42,6 +91,7 @@ a {
 .letters li {
     padding-left: 1rem;
     text-indent: -0,75rem;
+    margin-bottom: 5px;
 }
 
 .letters li::before {
@@ -57,15 +107,17 @@ a {
 .flowers li {
         padding-left: 1rem;
         text-indent: -0.75rem;
+        margin-bottom: 4px;
       }
 
  .flowers li::before {
     content: '🌼 '
  }
 
- img {
-  max-width: 50%;
-  max-height: 50%;
-border-style: solid;
+ 
+ 
+
+footer {
+    margin-top: 50px;
 }
  
